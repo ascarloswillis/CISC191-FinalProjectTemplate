@@ -1,4 +1,4 @@
-package edu.sdccd.cisc191;
+package edu.sdccd.cisc191.template;
 
 import java.util.Arrays;
 import java.util.Scanner;
@@ -22,6 +22,7 @@ public class GroceryStore {
     public void setAtIndex(int index, GroceryItem item) {
         if (index >= 0 && index < items.length) {
             items[index] = item;
+            size = index + 1;
         }
     }
 
@@ -60,6 +61,7 @@ public class GroceryStore {
 
     public void expand(int newSize) {
         items = Arrays.copyOf(items, newSize);
+        size = newSize;
     }
 
     public void shrink(int newSize) {

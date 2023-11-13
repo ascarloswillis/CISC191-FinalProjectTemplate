@@ -1,4 +1,4 @@
-package edu.sdccd.cisc191;
+package edu.sdccd.cisc191.template;
 import static org.junit.jupiter.api.Assertions.*;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -147,6 +147,7 @@ public class GroceryStoreTest {
         store.setAtIndex(2, item2);
 
         // Sort the items in the store
+        System.out.println(store.getAtIndex(0));
         store.sortItems();
 
         // Check if the items are sorted in ascending order
