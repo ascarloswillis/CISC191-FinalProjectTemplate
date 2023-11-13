@@ -1,4 +1,4 @@
-package edu.sdccd.cisc191;
+package edu.sdccd.cisc191.template;
 
 public class GroceryStoreSearcher {
     public static int binarySearch(GroceryItem[] items, int size, GroceryItem item) {

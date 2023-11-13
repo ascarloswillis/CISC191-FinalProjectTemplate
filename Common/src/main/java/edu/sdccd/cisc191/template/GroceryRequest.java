@@ -1,4 +1,4 @@
-package edu.sdccd.cisc191;
+package edu.sdccd.cisc191.template;
 import java.io.Serializable;
 public class GroceryRequest implements Serializable {
     public String category;
